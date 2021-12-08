@@ -260,3 +260,34 @@ html{
     }
 }
   /* End Services Section */
+
+  /* Start Portfolio Section */
+.portfolio{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color:#f5f5f0 ;
+}
+.portfolio .portfolio-content{
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap:40px;
+    margin-top: 100px;
+}
+.portfolio .portfolio-content .card{
+    background-color: white;
+}
+.portfolio .portfolio-content .card img{
+    max-width:100%;
+}
+.portfolio .portfolio-content .card .info{
+    padding:20px;
+}
+.portfolio .portfolio-content .card .info h3 {
+    margin: 0;
+}
+.portfolio .portfolio-content .card .info p{
+    color:#777;
+    line-height: 1.8;
+    margin-bottom:0;
+}
+  /* End Portfolio Section */

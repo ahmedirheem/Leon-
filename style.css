@@ -34,6 +34,8 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    margin:0;
+    padding:0;
 }
 body {
     font-family: "Work Sans", sans-serif;   
@@ -71,6 +73,9 @@ html{
     padding: 20px;
     position: fixed;
     z-index: 2;
+    background-color: #fff;
+    top:0;
+    width:100%;
 }
 .header .container {
     display: flex;
@@ -292,7 +297,7 @@ html{
 }
   /* End Portfolio Section */
 
-  /* Start About Section */
+    /* Start About Section */
 .about{
     padding-top: 60px;
     padding-bottom: 120px;
@@ -369,3 +374,62 @@ html{
     padding-top:30px;
 }
   /* End About Section */
+
+  /* Start Contact Section */
+.contact{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color:#f5f5f0 ;
+}
+.contact .info{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.contact .info .label{
+    font-weight: 800;
+    font-size:35px;
+    margin-bottom:15px;
+    color:var(--secondary-color);
+    letter-spacing: -2;
+}
+.contact .info a{
+    text-decoration: none;
+    color:var(--main-color);
+    font-size: 35px;
+    font-weight:800;
+    display: block;
+}
+@media (max-width:767px){ 
+    .contact .info .label,
+    .contact .info a{
+        font-size:25px;
+    }
+} 
+.contact .info .social{
+    margin-top: 15px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.contact .social i{
+    color:var(--secondary-color);
+    margin-left:15px;
+}
+  /* End Contact Section */
+  /* Start Footer Section */
+.footer {
+    background-color: var(--secondary-color);
+    text-align: center;
+    height:80px;
+    padding-top:30px ;
+    font-size:18px;
+    color:white;
+}
+.footer span{
+    color: var(--main-color);
+    font-weight:bold;
+}
+  /* End Footer Section */
+

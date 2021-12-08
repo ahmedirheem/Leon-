@@ -13,5 +13,5 @@ Right click with your and select open with live server.
 
 
 # Technology we used
-**HTML ➙** to build structure of the website.
-**CSS ➙** to style the website.
+* **HTML ➙** to build structure of the website.
+* **CSS ➙** to style the website.

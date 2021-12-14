@@ -71,7 +71,7 @@ html{
 /* Start Header */
 .header {
     padding: 20px;
-    position: fixed;
+    position: sticky;
     z-index: 2;
     background-color: #fff;
     top:0;
@@ -153,7 +153,7 @@ html{
 
    /* Start Landing Section */
 .landing {
-    background-image: url(../images/landing.jpg);
+    background-image: url(images/landing.jpg);
     background-size: cover;
     height: calc(100vh - 64px);
     position: relative;

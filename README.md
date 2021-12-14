@@ -2,10 +2,10 @@
 This is my first website that I made by using **Html** and **Css** 
 
 # Live Link
-[live Link](https://ahmedirheem.github.io/Leon-/)
+[live Link](https://ahmedirheem.github.io/Leon-Web/)
 
 # How to get the project locally
-* Press at https://github.com/ahmedirheem/Leon-.git
+* Press at https://github.com/ahmedirheem/Leon-Web.git
 * Click on Code button.
 * Clone the repository (copy the link).
 * Open Git Bash in your path.
